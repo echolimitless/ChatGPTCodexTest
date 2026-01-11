@@ -1,0 +1,47 @@
+:root {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  color: #1f2937;
+}
+
+body {
+  margin: 0;
+  background: #f8fafc;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.brand {
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: #e2e8f0;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  font-weight: 600;
+  color: #38bdf8;
+}
+
+.content {
+  padding: 2rem;
+}
